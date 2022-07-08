@@ -1,6 +1,7 @@
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import TwitterIcon from "@material-ui/icons/Twitter";
+import CalendarTodayIcon from "@material-ui/icons/CalendarToday";
 import { about } from "../../portfolio";
 import "./About.css";
 
@@ -55,6 +56,15 @@ const About = () => {
                 className="link link--icon"
               >
                 <TwitterIcon />
+              </a>
+            )}
+            {social.calendly && (
+              <a
+                href={social.calendly}
+                aria-label="calender"
+                className="link link--icon"
+              >
+                <CalendarTodayIcon />
               </a>
             )}
           </>

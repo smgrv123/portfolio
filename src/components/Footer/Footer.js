@@ -3,7 +3,7 @@ import { about, } from '../../portfolio'
 
 const Footer = () => (
   <footer className='footer'>
-    Made with ❤️ by &nbsp;
+    Made with 🤎 by &nbsp;
     <a
       href={about.social.github}
       className='link footer__link'

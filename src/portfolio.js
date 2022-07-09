@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'http://portfolio-smgrv123.vercel.app/',
+  homepage: 'https://www.sumritgrover.me/',
   title: "SG",
 };
 
@@ -10,12 +10,13 @@ const about = {
   role: "Software Developer",
   description:
     "I enjoy creating applications, dApps, and websites, as well as tinkering with new technologies. Additionally, I've worked with Java and Python. I am a self-starter with a strong work ethic. You or your organisation can get in touch with me via email if my expertise in programming and technology will be beneficial to you or your business.",
-  peerlist: "https://peerlist.io/sumrit_grover",
+  resume: "https://drive.google.com/file/d/15onyYwqNH4qlKisRCKf_vZZKBhlbUXH3/view?usp=sharing",
   social: {
     linkedin: "https://linkedin.com/in/sumrit-grover/",
     github: "https://github.com/smgrv123",
     twitter: "https://twitter.com/grover_sumrit",
     calendly: "https://calendly.com/sumritgrover/30min",
+    peerlist:"https://peerlist.io/sumrit_grover",
   },
 };
 

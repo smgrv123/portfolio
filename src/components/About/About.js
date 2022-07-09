@@ -2,11 +2,12 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import CalendarTodayIcon from "@material-ui/icons/CalendarToday";
+import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 import { about } from "../../portfolio";
 import "./About.css";
 
 const About = () => {
-  const { name, role, description, social, peerlist } = about;
+  const { name, role, description, social, resume } = about;
 
   return (
     <div className="about center">
@@ -20,10 +21,10 @@ const About = () => {
       <p className="about__desc">{description && description}</p>
 
       <div className="about__contact center">
-        {peerlist && (
-          <a href={peerlist} download>
+        {resume && (
+          <a href={resume} download>
             <p type="button" className="btn btn--outline">
-              PEERLIST
+              resume
             </p>
           </a>
         )}
@@ -65,6 +66,15 @@ const About = () => {
                 className="link link--icon"
               >
                 <CalendarTodayIcon />
+              </a>
+            )}
+            {social.peerlist && (
+              <a
+                href={social.peerlist}
+                aria-label="github"
+                className="link link--icon"
+              >
+                <AccountCircleIcon />
               </a>
             )}
           </>
